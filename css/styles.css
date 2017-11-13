@@ -1,0 +1,121 @@
+.brd {
+	width: 440px;
+	height: 440px;
+	background-color: palegoldenrod;
+	position: relative;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.container {
+	width: 400px;
+	height: 400px;
+	outline: 3px solid #000;
+	position: absolute;
+	bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+	margin: auto;
+	padding: 0px;
+
+ }
+
+.container-gradient {
+	background-color: palegoldenrod;
+	background-image: linear-gradient( 45deg,black 25%, transparent 25%, transparent 74%, black 75%, black), 
+	linear-gradient( 45deg,black 25%, transparent 25%, transparent 74%, black 75%, black);
+	background-size:100px 100px;
+	background-position: 0 0, 50px 50px;
+	width: 400px;
+	height: 400px;
+	
+} 
+
+
+
+.checkers {
+	width: 400px;
+	height: 400px; 
+	margin: 0;
+	padding: 0; 
+	
+
+	
+}
+
+.checker_row-1
+ {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	background: radial-gradient(at center, white, black);
+	display: inline-block;
+	margin-left: 56px;
+	margin-top: 3px;
+}
+	
+
+.checker_row-2 {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	background: radial-gradient(at center, white, black);
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 7px;
+	margin-right: 52px;
+}
+.checker_row-3 {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	background: radial-gradient(at center, white, black);
+	display: inline-block;
+	margin-left: 56px;
+	margin-top: 7px;
+	
+	
+}
+
+
+.checker_row-4 {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	background: radial-gradient(at center, white, red);
+	display: inline-block; 
+	margin-left: 5px;
+	margin-right: 52px;
+	margin-top: 103px;
+}
+	
+
+
+.checker_row-5 {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	background: radial-gradient(at center, white, red);
+	display: inline-block;
+	margin-left: 56px;
+	margin-top: 7px;
+}
+
+.checker_row-6 {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	background: radial-gradient(at center, white, red);
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 52px;
+	margin-top: 7px;
+}
+
+  .povorot {
+  -moz-transform: rotate(10deg);  
+  -o-transform: rotate(10deg);  
+  -webkit-transform: rotate(10deg);  
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476); 
+}    
